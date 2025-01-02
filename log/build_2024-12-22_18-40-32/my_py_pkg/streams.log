@@ -1,0 +1,37 @@
+[0.708s] Invoking command in '/home/jian/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/jian/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/jian/ros2_ws/src/build/my_py_pkg/build install --record /home/jian/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.011s] running egg_info
+[1.011s] creating ../build/my_py_pkg/my_py_pkg.egg-info
+[1.011s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.013s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.014s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.014s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.014s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.016s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.018s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.018s] running build
+[1.018s] running build_py
+[1.018s] creating /home/jian/ros2_ws/src/build/my_py_pkg/build
+[1.018s] creating /home/jian/ros2_ws/src/build/my_py_pkg/build/lib
+[1.019s] creating /home/jian/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[1.019s] copying my_py_pkg/__init__.py -> /home/jian/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[1.019s] copying my_py_pkg/my_first_node.py -> /home/jian/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[1.020s] running install
+[1.021s] running install_lib
+[1.021s] creating /home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.022s] copying /home/jian/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.022s] copying /home/jian/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.023s] byte-compiling /home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.024s] byte-compiling /home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.024s] running install_data
+[1.024s] creating /home/jian/ros2_ws/src/install/my_py_pkg/share/ament_index
+[1.024s] creating /home/jian/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index
+[1.025s] creating /home/jian/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.025s] copying resource/my_py_pkg -> /home/jian/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.025s] copying package.xml -> /home/jian/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[1.025s] running install_egg_info
+[1.030s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.030s] running install_scripts
+[1.057s] Installing py_node script to /home/jian/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.057s] writing list of installed files to '/home/jian/ros2_ws/src/build/my_py_pkg/install.log'
+[1.089s] Invoked command in '/home/jian/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/jian/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jian/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/jian/ros2_ws/src/build/my_py_pkg/build install --record /home/jian/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
